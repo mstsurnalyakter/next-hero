@@ -28,6 +28,14 @@ const NavBar = () => {
             title:"Blogs",
             path:"/blog"
         },
+        {
+            title:"Categories",
+            path:"/categories"
+        },
+        {
+            title:"Dashboard",
+            path:"/dashboard"
+        },
     ]
     const handleLogin = ()=>{
         router.push("/login")
