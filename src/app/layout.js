@@ -13,9 +13,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <NavBar/>
-        <div className="h-screen">{children}</div>
-        <footer>This Footer</footer>
+        <NavBar />
+        <div className="">{children}</div>
+        <footer className="bg-pink-400 py-20 text-center">This Footer</footer>
       </body>
     </html>
   );
