@@ -32,6 +32,16 @@ const NavBar = () => {
     const handleLogin = ()=>{
         router.push("/login")
     }
+
+
+    if (pathName.includes("dashboard")) {
+      return (
+        <div className='bg-green-400 py-20 text-center'>
+          Dashboard Navbar
+        </div>
+      )
+    }
+
   return (
     <div>
       <nav className="bg-pink-400 p-10 flex items-center gap-10 justify-center">
